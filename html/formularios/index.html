@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h2>Formulários Cadastrados</h2>
+
+    <button onclick="irParaCadastro()">Cadastrar novo Formulario</button>
+
+    <table id="tabelaFormularios">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome da Empresa</th>
+          <th>CNPJ</th>
+          <th>Telefone</th>
+          <th>Prazo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Os dados serão inseridos aqui -->
+      </tbody>
+    </table>
+    <script src="main.js"></script>
+    <script>
+      function irParaCadastro() {
+        window.location.href = "/cadastro/index.html";
+      }
+    </script>
+  </body>
+</html>
