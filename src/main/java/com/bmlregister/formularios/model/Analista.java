@@ -9,8 +9,6 @@ public class Analista extends Funcionario {
 
     final private Integer nivelAcesso = 2;
 
-    // Getters e Setters
-
     public Integer getNivelAcesso() {
         return nivelAcesso;
     }
