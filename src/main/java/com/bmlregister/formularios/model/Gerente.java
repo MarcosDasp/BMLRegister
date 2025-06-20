@@ -10,8 +10,6 @@ public class Gerente extends Funcionario {
 
     final private Integer nivelAcesso = 3;
 
-    // Get e Set
-
     public Integer getNivelAcesso() {
         return nivelAcesso;
     }
