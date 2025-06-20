@@ -9,8 +9,6 @@ public class Vendedor extends Funcionario {
 
     final private Integer nivelAcesso = 1;
 
-    // Get
-
     public Integer getNivelAcesso() {
         return nivelAcesso;
     }
